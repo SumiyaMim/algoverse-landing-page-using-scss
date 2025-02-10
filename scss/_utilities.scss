@@ -8,7 +8,7 @@ $bkColor: #11184f;
 // Font Weight
 $fontWSM: 400;
 $fontWMD: 600;
-$fontWXL: 900;
+$fontWXL: 700;
 
 body, p {
   font: {
@@ -20,7 +20,7 @@ p {
     margin: 0 0 15px;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $fontWXL;
+  font-weight: $fontWMD;
   margin: 0 0 15px;
   line-height: 1.2em;
 }
@@ -42,6 +42,14 @@ $paddingSM: 10px 0;
   padding: 60px 0;
   @media only screen and (min-width: $small) and (max-width: $medium) {
     padding: 25px 0;
+  }
+}
+
+// Margin
+.m-top {
+  margin-top: 45px;
+  @media only screen and (min-width: $small) and (max-width: $medium) {
+    margin-top: 25px;
   }
 }
   
@@ -72,3 +80,27 @@ $paddingSM: 10px 0;
       }
     }
 }  
+
+// Call To Action Button
+.btn-cta {
+  background: $pColor;
+  color: $whiteColor;
+  display: inline-block;
+  padding: 12px 25px;
+  font-weight: $fontWMD;
+  border-radius: 5px;
+  margin-top: 5px;
+  &:hover {
+    background: $bkColor;
+  }
+}
+
+// Title Style
+.title {
+  font-size: 35px;
+  line-height: 1em;
+  margin-bottom: 10px;
+  @media only screen and (min-width: $small) and (max-width: $medium) {
+    font-size: 25px;
+  }
+}
