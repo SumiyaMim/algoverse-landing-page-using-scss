@@ -1,8 +1,8 @@
 # Project Description
 
-- Live Link : https://algoverse-landing-page.netlify.app/
+Live Link : https://algoverse-landing-page.netlify.app/
 
-# Technology
+## Technology
 - HTML
 - CSS
 - SCSS
